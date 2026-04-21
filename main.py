@@ -7,7 +7,10 @@ app = FastAPI()
 
 @app.get("/") # Define a route for the root URL
 def home():
-    return {"message": "Welcome to the FastAPI application!"}
+    return {"message": "Welcome to the FastAPI application!",
+            "status": "online",
+            "endpoints": {"/", "/about"}
+    }
 
 @app.get("/about") # Define a route/endpoint for the /about URL
 def about():
