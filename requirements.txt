@@ -3,5 +3,6 @@ requests
 dune-client
 joblib
 uvicorn
-# added newly 
+redis
+
 python-dotenv
