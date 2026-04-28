@@ -4,5 +4,4 @@ dune-client
 joblib
 uvicorn
 redis
-
 python-dotenv

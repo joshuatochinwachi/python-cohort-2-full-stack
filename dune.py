@@ -83,6 +83,10 @@ QUERY_REGISTRY: dict[str, QueryConfig] = {
         query_id=5972407,
         description="Random traders on Ethereum (their activity, value and consistency in the last 365 days)",
     ),
+    "ronin": QueryConfig(
+        query_id=5785149,
+        description="Katana Ronin Volume & User Segmentation",
+    )
 }
 
 
